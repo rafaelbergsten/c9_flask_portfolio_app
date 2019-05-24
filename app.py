@@ -17,7 +17,7 @@ def home_page():
 def profile(name):
   #new_name = str(name) + " like to eats mangos"
   #teste new name
-  new_name = str(name)
+    new_name = str(name)
 	return render_template('index.html', name=new_name)
 
 
